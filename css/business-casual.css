@@ -81,7 +81,8 @@ hr.divider {
 
 .intro-social {
     position: relative;
-    padding-bottom: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .social-click {
     position: relative;
