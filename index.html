@@ -16,6 +16,16 @@ title: Doris Liu
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
+      <div class="intro-social">
+        <div class="social-click">
+          <ul class="list-inline intro-social-buttons">
+            {% for social in site.social %}
+            <!--<li class="display-inline"><a href="{{ social.url }}" target="_blank" ><font color="white"><i class="fa fa-{{ social.icon }} fa-2x"></i></font></a></li>-->
+            <li><a href="{{ social.url }}" target="_blank" class="btn btn-default"><i class="fa fa-{{ social.icon }}"></i> &nbsp <span class="network-name">{{ social.title }}</span></a></li> 
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <img class="d-block img-fluid w-100" src="img/slide-1.jpg"

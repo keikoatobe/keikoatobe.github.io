@@ -1,2 +1,16 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
+
+social:
+  - icon: envelope-o
+    title: email
+    url: dorisliu9312@gmail.com
+  - icon: github
+    title: github
+    url: https://github.com/keikoatobe/
+  - icon: linkedin
+    title: linkedin
+    url: https://www.linkedin.com/in/doris-sihan-liu/
+  - icon: file-pdf-o
+    title: resume
+    url: https://keikoatobe.github.io/rsc/resume.pdf
